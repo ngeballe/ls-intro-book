@@ -1,0 +1,11 @@
+
+puts 5 * 4 * 3 * 2 * 1
+puts 6 * 5 * 4 * 3 * 2 * 1
+puts 7 * 6 * 5 * 4 * 3 * 2 * 1
+puts 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
+
+# or
+puts a = 5 * 4 * 3 * 2 * 1
+puts b = 6 * a
+puts c = 7 * b
+puts d = 8 * c
