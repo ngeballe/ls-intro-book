@@ -1,0 +1,20 @@
+ex6.txt
+
+You run the following code...
+
+names = ['bob', 'joe', 'susan', 'margaret']
+names['margaret'] = 'jody'
+
+...and get the following error message:
+
+TypeError: no implicit conversion of String into Integer
+  from (irb):2:in `[]='
+  from (irb):2
+  from /Users/username/.rvm/rubies/ruby-2.0.0-p353/bin/irb:12:in `<main>'
+
+What is the problem and how can it be fixed?
+
+
+Answer:
+The problem is that names is an array, not a hash. So the expression names['margaret'] looks for the Margaret-th element of the array names, which doesn't make sense. That is, it asks for an array with an index that's a string, but arrays don't have string indices; their indices are integers. That's why the error message says it can't convert a String into an Integer
+
