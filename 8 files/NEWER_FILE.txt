@@ -1,0 +1,3 @@
+Writing to files in Ruby is simple
+That's my line!
+I propose to fight it out on this line, if it takes all summer.

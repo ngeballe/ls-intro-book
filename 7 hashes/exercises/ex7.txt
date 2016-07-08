@@ -1,0 +1,13 @@
+ex7.rb
+
+Given the following code...
+
+x = "hi there"
+my_hash = {x: "some value"}
+my_hash2 = {x => "some value"}
+
+What's the difference between the two hashes that were created?
+
+
+Answer:
+The key in my_hash is the symbol :x. The key in my_hash2 is the variable x, which is the string "hi there." 
